@@ -1,0 +1,26 @@
+:root {
+    --primary: #171819;
+    --secundary: #1e1e23;
+    --terciary: #47474a;
+    --white: #cfcfd0;
+    --red: #a64041;
+    --green: #5fad81;
+  }
+
+  body {
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary);
+  }
+
+  nav {
+    padding: 1rem;
+    background-color: var(--secundary);
+  }
+
+  h1 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

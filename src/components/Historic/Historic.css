@@ -1,0 +1,30 @@
+:root {
+    --primary: #171819;
+    --secundary: #1e1e23;
+    --terciary: #47474a;
+    --white: #cfcfd0;
+    --red: #a64041;
+    --green: #5fad81;
+}
+
+.historic-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--secundary);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.historic-div p{
+    align-content: center;
+    margin: 0.5rem;
+}
+
+.positive {
+    color: var(--green);
+}
+
+.negative {
+    color: var(--red);
+}
